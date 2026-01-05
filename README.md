@@ -5,6 +5,6 @@
 
   # sspark9395's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[ajouatmlab.com/amphyst](http://ajouatmlab.com/amphyst)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
