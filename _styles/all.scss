@@ -8,42 +8,71 @@
   text-size-adjust: none;
 }
 
-/* ===== Reset / Base ===== */
-@import "background";
-@import "body";
-@import "font";
+/* ==================================================
+   1. Reset / Global base
+================================================== */
 
-/* ===== Typography ===== */
-@import "heading";
-@import "paragraph";
-@import "quote";
-@import "bold";
-@import "rule";
-@import "highlight";
+@import "background";   // body/html background
+@import "body";         // body font, line-height
+@import "font";         // font-face, google fonts
+@import "heading";      // h1–h6
+@import "paragraph";    // p
+@import "link";         // a
+@import "list";         // ul, ol
+@import "quote";        // blockquote
+@import "rule";         // hr
+@import "code";         // pre, code
+@import "highlight";    // syntax highlight
+@import "citation";    // cite
+@import "anchor";       // anchor offsets
 
-/* ===== Layout ===== */
+/* ==================================================
+   2. Layout
+================================================== */
 @import "grid";
+@import "cols";
 @import "section";
 @import "header";
 @import "footer";
+@import "figure";
+@import "float";
+@import "portrait";
 
-/* ===== Components ===== */
+/* ==================================================
+   3. Components
+================================================== */
 @import "button";
 @import "form";
+@import "checkbox";
 @import "card";
 @import "table";
-@import "list";
 @import "image";
-@import "figure";
 @import "icon";
+@import "details";
+@import "tooltip";
+@import "alert";
+@import "textbox";
+@import "tags";
+@import "search-box";
+@import "search-info";
+@import "dark-toggle";
 
-/* ===== Post ===== */
+/* ==================================================
+   4. Post / Content specific
+================================================== */
 @import "post-info";
 @import "post-excerpt";
 @import "post-nav";
 
-/* ===== Utilities & Theme ===== */
+/* ==================================================
+   5. Utilities
+================================================== */
 @import "util";
+@import "bold";
+@import "feature";
 @import "custom";
-@import "-theme";
 
+/* ==================================================
+   6. Theme (항상 맨 마지막)
+================================================== */
+@import "-theme";
