@@ -1,9 +1,10 @@
 ---
 ---
+<h1 style="font-size: 2.3rem;">
+"그대는 선구자가 되어 나아가라, 그 길은 푸른 횃불이 비추리"
+</h1>
 
-# sspark9395's Website
-
-An engaging 1-3 sentence description of your lab.
+아주대학교 의사과학자 양성사업단은 의사과학자의 꿈을 가진 의학도들을 체계적으로 교육하고 적극적으로 지원하여, 사회에 공헌하는 의사과학자로 성장할 수 있도록 노력하겠습니다.
 
 {% include section.html %}
 

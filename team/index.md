@@ -1,8 +1,7 @@
 ---
-title: Team
+title: 연구실 소개
 nav:
-  order: 3
-  tooltip: About our team
+  order: 5
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team

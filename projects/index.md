@@ -1,27 +1,143 @@
 ---
-title: Projects
+title: "인사말"
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 1
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
-
 {% include section.html %}
 
-## Featured
+<div class="greeting-grid-2x2">
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+  <!-- 좌상 -->
+<div class="greeting-title">
+  <h2><span class="ajou-bold">A</span>dvancing the <span class="ajou-bold">J</span>ourney to the</h2>
+  <h2><span class="ajou-bold">O</span>utstanding <span class="ajou-bold">U</span>niversity in Medicine
+  </h2>
+  <br>우리는 세계최고 의과대학으로 나아가는 여정을 함께합니다
+  
+  <p class="signature">
+    아주대학교 의과대학장 박태준
+  </p>
+</div>
+
+  <!-- 우상 -->
+  <div class="greeting-image1">
+    <img src="/images/hakjang.jpg" alt="Ajou SOM Dean">
+  </div>
+
+  <!-- 좌하 -->
+  <div class="greeting-text">
+    의학과 생명과학은 같은 목표를 향하고 있지만 서로 다른 언어를 사용합니다.
+    환자에서 출발한 임상적 질문이 실험실 연구로 이어지고,
+    연구 성과가 다시 치료 전략과 임상 의사결정으로 환원되기까지는
+    이 두 영역을 동시에 이해하고 연결할 수 있는 인재가 반드시 필요합니다.
+    의사과학자는 바로 이 간극을 이해와 번역으로 메우는 핵심적인 존재이며,
+    아주대학교 의과대학은 이러한 역할을 수행할 수 있는 인재를 체계적으로 양성해 왔습니다.
+    1988년 개교 이래, 아주대학교 의과대학은 국내 의과대학 중 최초로 의사과학자 양성프로그램인 <span class="ajou-bold">Ajou University School of Medicine Physician-Scientist Training (AMPhST) Program</span>을 국내 최초로 시행하여, 본교의 대학원에서 많은 수의 의사과학자를 육성하였고, 그 중 14명의 의사과학자가 의과대학의 전임교수로 임용되어 다양한 의학계에서 연구에 매진하고 있습니다.<br>
+    <br>아주대학교 의과대학 학장단은 연구 중심 인재 육성을 향후 30년간의 아주대학교 의과대학의 핵심 성장 동력으로 설정하고 있으며, 이에 걸맞는
+    <span class="ajou-bold">VISION 2030 & 2035</span>를 설정하고, 이를 구체적으로 실현하기 위해 단계적인 목표를 수립하고 있습니다. <span class="ajou-bold">VISION 2030</span>은
+학부-석사-박사-전공의로 이어지는 전주기적 의사과학자 육성 시스템의 확장과 개편을 통해
+교육·연구·임상이 유기적으로 연결되는
+의사과학자 양성 체계를 확립하는 단계입니다.
+이를 통해 학생, 전공의, 연구자들이
+안정적으로 연구 역량을 축적하고 성장할 수 있는
+지속 가능한 교육·연구 기반을 구축하고자 합니다.
+
+나아가 <span class="ajou-bold">VISION 2035</span>는
+체계적으로 양성된 의사과학자들이 실제로 배출되고,
+이들이 병원과 의과대학 내에서
+연구자이자 임상의, 그리고 교육자로서
+안정적으로 자리 잡을 수 있도록
+제도적·문화적 기반을 완성하는 단계입니다.
+이는 단순한 인력 양성을 넘어,
+의사과학자가 의과대학과 병원의 핵심 구성원으로서
+자연스럽게 기능하는 구조를 정착시키는 것을 목표로 합니다.<br>
+<br>
+아주대학교 의과대학은
+선도연구센터(MRC), 대학중점연구소,
+AI 초융합 KIURI 중개연구단, 핵심연구지원센터 등
+다수의 대형 국책연구사업을 수행하며
+이미 연구 중심 대학으로서의 역량을 입증해 왔습니다.
+이러한 연구 환경은 의사과학자 양성의 가장 중요한 자산으로서,
+학생들이 실제 연구 현장에 참여하고
+의학의 미래를 주도할 수 있는 경험과 안목을 기르는 토대가 되고 있습니다.
+
+의과대학 개교 38주년을 맞이한 지금,
+아주대학교 의과대학은 성숙기의 문턱에서
+의사과학자 양성을 통해
+임상과 연구, 교육이 선순환하는 새로운 의학교육 모델을 완성하고자 합니다.
+아주대학교 의사과학자 양성사업단은
+이 여정의 중심에서,
+차세대 의사과학자들과 함께
+세계 최고 수준의 의과대학을 향한 길을 만들어 가고자 합니다.
+  </div>
+
+</div>
+{% include section.html %}
+<div class="greeting-grid-2x2 reverse">
+
+  <!-- 좌상 (사진) -->
+  <div class="greeting-image">
+    <img src="/images/vicedean.jpg" alt="Ajou SOM Vice Dean">
+  </div>
+
+  <!-- 우상 (제목) -->
+  <div class="greeting-title">
+    <h2>의학 연구의 새로운 길을 열고</h2>
+    <h2>미래 의학을 밝히는 인재를 키웁니다</h2>
+
+    <p class="signature">
+      아주대학교 의과대학 교무부학장/<br>의사과학자양성사업단장 김병곤
+    </p>
+  </div>
+
+  <!-- 하단 본문 -->
+  <div class="greeting-text">
+    의사과학자의 꿈을 갖고 있는 아주대학교 의과대학생 및 예비의사과학자 여러분, 의사과학자의 길은 의지가 부족해서 어려운 것이 아니라,
+지속할 수 있는 구조가 부족해서 어려운 길입니다.
+많은 학생과 전공의들이 연구에 대한 분명한 동기와 역량을 갖고 있음에도,
+어디서 시작해야 하는지, 언제 연구를 해야 하는지,
+그리고 연구 이후의 경로가 어떻게 이어지는지에 대한 불확실성 앞에서
+쉽게 방향을 잃곤 합니다.
+
+의사과학자로서 제가 현장에서 가장 자주 마주한 질문은
+“연구를 해도 괜찮은가”가 아니라
+“연구를 계속해도 되는가”였습니다.
+이 질문에 제도와 시스템으로 답하지 못한다면,
+의사과학자 양성은 개인의 열정에만 의존하는 한계를 벗어날 수 없습니다.
+
+아주대학교 의사과학자 양성사업단은
+바로 이 지점에서 출발합니다.
+연구 의지가 있는 학생과 전공의가
+일시적인 선택이 아닌, 지속 가능한 경로로서
+의사과학자의 길을 설계할 수 있도록 돕는 것이
+이 사업단의 가장 중요한 역할입니다.
+교육, 연구, 임상이 충돌하는 것이 아니라
+각자의 시점에서 자연스럽게 연결되도록
+경로를 정비하고 기준을 만드는 일이 핵심입니다.<br>
+<br>
+2026년을 기점으로 아주대학교 의사과학자 양성사업단은
+보다 학생 친화적인 방향으로 프로그램 전반에 걸친 개편을 추진할 예정입니다.
+기초의학 장학제도의 마련, 기초의학 학부 트랙 신설, 기초의학연구 및 융합의학 마이크로전공 도입,
+학·석 연계 과정 신설, 그리고 기초의학 전공의 제도의 개편에 이르기까지,
+이번 개편은 특정 단계에 국한된 변화가 아니라
+의사과학자의 성장을 가로막아 왔던 구조적 단절을 하나씩 해소하려는 시도입니다.
+연구에 관심을 가진 학생이 보다 이른 시점부터 체계적인 교육과 지원을 받고,
+각 단계에서 다음 경로를 예측하며 준비할 수 있도록
+교육과 제도의 흐름을 다시 설계하고자 합니다.<br>
+<br>
+중요한 것은, 이 모든 변화의 출발점이 “연구의지를 가진 학생”이라는 점입니다.
+연구를 해보고 싶다는 마음, 한 번 더 질문해 보고 싶다는 호기심이
+개인의 부담이나 불안으로 남지 않도록,
+대학과 의과대학이 먼저 구조를 바꾸고 책임을 나누겠습니다.
+아주대학교 의사과학자 양성사업단은
+학생과 전공의의 선택이 고립되지 않도록,
+연구를 선택한 이들이 더 나은 환경에서 지속적으로 성장할 수 있도록
+제도와 시스템의 측면에서 헌신적인 개편을 이어갈 것입니다.
+학생들의 의지가 길을 찾는 순간,
+그 길이 끊기지 않도록 지탱해 주는 구조를 만들고 여러분들이 마음껏 연구에 대한 꿈을 펼칠 수 있도록 지원하겠습니다.
+  </div>
+
+</div>
 
 {% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}

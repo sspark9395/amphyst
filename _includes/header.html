@@ -41,19 +41,33 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
-    {% assign pages = site.pages
-      | where_exp: "page", "page.nav"
-      | sort: "nav.order"
-    %}
-    {% for page in pages %}
-      {% if page.nav %}
-        <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
-        >
-          {{ page.title }}
-        </a>
+  {% assign parents = site.pages
+    | where_exp: "p", "p.nav and p.nav.parent == nil"
+    | sort: "nav.order"
+  %}
+
+  {% for parent in parents %}
+    <div class="nav-item">
+      <a href="{{ parent.dir | relative_url }}">
+        {{ parent.title }}
+      </a>
+
+      {% assign children = site.pages
+        | where_exp: "c", "c.nav and c.nav.parent == parent.title"
+        | sort: "nav.order"
+      %}
+
+      {% if children.size > 0 %}
+        <div class="dropdown">
+          {% for child in children %}
+            <a href="{{ child.dir | relative_url }}">
+              {{ child.title }}
+            </a>
+          {% endfor %}
+        </div>
       {% endif %}
-    {% endfor %}
-  </nav>
+    </div>
+  {% endfor %}
+</nav>
+
 </header>

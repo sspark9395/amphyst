@@ -1,8 +1,7 @@
 ---
-title: Blog
+title: 전일제박사과정
 nav:
-  order: 4
-  tooltip: Musings and miscellany
+  parent: 융합형의사과학자지원사업
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
