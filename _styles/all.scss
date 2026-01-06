@@ -8,28 +8,41 @@
   text-size-adjust: none;
 }
 
-
-@import "font";
+/* ===== Reset / Base ===== */
+@import "background";
 @import "body";
+@import "font";
+
+/* ===== Typography ===== */
 @import "heading";
 @import "paragraph";
+@import "quote";
+@import "bold";
+@import "rule";
+@import "highlight";
 
+/* ===== Layout ===== */
 @import "grid";
+@import "section";
 @import "header";
 @import "footer";
 
+/* ===== Components ===== */
 @import "button";
 @import "form";
 @import "card";
 @import "table";
 @import "list";
 @import "image";
+@import "figure";
 @import "icon";
 
+/* ===== Post ===== */
 @import "post-info";
 @import "post-excerpt";
 @import "post-nav";
 
+/* ===== Utilities & Theme ===== */
 @import "util";
 @import "custom";
 @import "-theme";

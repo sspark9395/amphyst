@@ -10,11 +10,23 @@
   text-size-adjust: none;
 }
 
-/* Google Fonts: Noto Sans KR */
-/* Font variables */
-/* Apply fonts */
-body {
-  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+/* ===== Reset / Base ===== */
+.background {
+  position: relative;
+  background: var(--background);
+  color: var(--text);
+  z-index: 1;
+}
+
+.background:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: -1;
 }
 
 body {
@@ -30,6 +42,14 @@ body {
   line-height: var(--compact);
 }
 
+/* Google Fonts: Noto Sans KR */
+/* Font variables */
+/* Apply fonts */
+body {
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+}
+
+/* ===== Typography ===== */
 h1,
 h2,
 h3,
@@ -86,6 +106,38 @@ p {
   line-height: var(--spacing);
 }
 
+blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-left: solid 4px var(--light-gray);
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+b,
+strong {
+  font-weight: var(--bold);
+}
+
+hr {
+  margin: 40px 0;
+  background: var(--light-gray);
+  border: none;
+  height: 1px;
+}
+
+mark {
+  background: #fef08a;
+  color: #000000;
+}
+
+/* ===== Layout ===== */
 .grid {
   display: grid;
   --repeat: 3;
@@ -128,6 +180,40 @@ p {
 
 .grid > :where(h1, h2, h3, h4, h5, h6) {
   display: none;
+}
+
+section {
+  padding: 40px max(40px, (100% - 1000px) / 2);
+  transition: background var(--transition), color var(--transition);
+}
+
+section[data-size=wide] {
+  padding: 40px;
+}
+
+section[data-size=full] {
+  padding: 0;
+}
+
+section[data-size=full] > * {
+  margin: 0;
+  border-radius: 0;
+}
+
+section[data-size=full] img {
+  border-radius: 0;
+}
+
+main > section:last-of-type {
+  flex-grow: 1;
+}
+
+main > section:nth-of-type(odd) {
+  background: var(--background);
+}
+
+main > section:nth-of-type(even) {
+  background: var(--background-alt);
 }
 
 header {
@@ -382,6 +468,7 @@ footer .icon {
   font-size: var(--xl);
 }
 
+/* ===== Components ===== */
 button {
   cursor: pointer;
 }
@@ -528,6 +615,30 @@ img {
   max-height: 100%;
 }
 
+.figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.figure-image {
+  display: contents;
+}
+
+.figure-image img {
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.figure-caption {
+  font-style: italic;
+  text-align: center;
+}
+
 .icon {
   font-size: 1em;
 }
@@ -542,6 +653,7 @@ span.icon > svg {
   height: 1em;
 }
 
+/* ===== Post ===== */
 .post-info {
   display: flex;
   justify-content: center;
@@ -667,6 +779,7 @@ span.icon > svg {
     text-align: center !important;
   }
 }
+/* ===== Utilities & Theme ===== */
 .left {
   text-align: left;
 }
