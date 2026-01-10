@@ -2,20 +2,182 @@
 title: 융합형의사과학자지원사업
 nav:
   order: 3
-  dropdown: true
+  dropdown:
+    - title: 사업소개
+      anchor: introduction
+    - title: 학부과정 지원사업
+      anchor: under-support
+    - title: 전일제 박사과정 지원사업
+      anchor: phd-support
+    - title: 전공의 연구지원사업
+      anchor: resident-support
 ---
-
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-{% include search-box.html %}
+<h2 class="section-title" id="introduction">
+  <span class="dot"></span>
+  <span class="title-text">사업개요</span>
+</h2>
 
-{% include tags.html tags=site.tags %}
+<img src="/images/KHIDI.png"
+       alt="중개의학"
+       style="max-width:100%;
+              border-radius:12px;">
 
-{% include search-info.html %}
+ <p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+"융합형의사과학자 양성사업"은 2019년부터 보건복지부와 한국보건산업진흥원이 추진 중인 사업으로, 국내 바이오메디컬 산업의 혁신성장을 촉진하기 위해 다양한 이공계 분야의 학문 지식과 의학 지식을 융합하는 교육·연구 기반을 마련하는 프로그램입니다. 본 사업은 의과대학 학부 단계부터 전일제 박사과정, 그리고 신진의사과학자 단계까지 전주기적 지원을 통해 임상 지식을 갖춘 의사가 기초 및 중개연구를 수행할 수 있는 환경을 조성하고 있으며, 현재까지 165명의 전일제 박사학위과정 학생을 지원하여 전국에서 총 79명의 의사과학자(MD-Ph.D)를 배출했습니다. 2024년부터는 배출된 의사과학자가 경력 단계별로 맞춤형 연구를 지속할 수 있도록 글로벌 의사과학자 양성사업 (의사과학자 개인연구 및 해외공동연구 지원, 해외연수 프로그램 등)을 운영하고 있으며, 2026년부터는 K-MediST 사업으로 의대와 국내 과학기술원등의 이공계 대학원 간 연계 교육과정 개설, 의사과학자 도약사업으로 바이오헬스 분야의 생태계 구축 등 새로운 사업을 추가 운영할 예정입니다.
+</p>
 
-{% include list.html data="posts" component="post-excerpt" %}
+<h2 class="section-title" id="under-support">
+  <span class="dot"></span>
+  <span class="title-text">학부과정지원</span>
+</h2>
+
+<h3 class="sub-section-title">사업 소개</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+본 사업은 바이오메디컬 융·복합연구 역량을 갖춘 의과학자를 양성하는 것을 목적으로 하며, 학부과정 단계에서 다양한 이공계 학문 지식과 의학 지식을 유기적으로 연계한 융합 교육 및 연구 지원을 제공함. 이를 위해 의학 전공자를 대상으로는 전자공학, 생명공학, 기계공학 등 의학과의 접목 가능성이 높은 이공계 분야 교과목을 개설·운영하여 융합 교육과 연구 경험을 확대하고, 이공계 전공자를 대상으로는 기존 전공과 연계 가능한 기초 의생명과학 및 임상의학 분야 교과목의 개설·운영을 통해 의학 기반의 융합 교육·연구 참여 기회를 제공하고자 함.
+<br>
+<br>
+해당 사업은 의과대학 개별 학생에 대한 지원이 아닌 교과/비교과 과목 개설에 관한 사항으로, 자세한 내용은 본 홈페이지 "AMPhST 프로그램" 탭에서 확인할 수 있음.
+</p>
+
+<h2 class="section-title" id="phd-support">
+  <span class="dot"></span>
+  <span class="title-text">전일제 박사과정 지원</span>
+</h2>
+
+<!-- ===== 사업내용 ===== -->
+<h3 class="sub-section-title">1. 사업 내용</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+전일제 박사과정 지원은 기초의학, 이학, 공학 등 융합과학 분야에서 연구를 수행하는
+의사를 대상으로 박사학위과정 동안 안정적인 연구활동을 지원하기 위한 사업임.
+본 사업은 전일제 연구 수행을 전제로 하여, 임상 역량을 갖춘 의사가
+기초 및 중개연구자로 성장할 수 있는 환경을 조성하는 것을 목적으로 함.
+</p>
+<p style="font-size:0.75em; line-height:2.5; margin:0; text-align:justify;">
+<b>* 본 내용은 사업 RFP를 바탕으로 한 요약본으로, 정확한 내용은 보건산업진흥원 융합형 의사과학자 전일제박사과정 RFP 원문 참고 필요.</b>
+</p>
+
+<!-- ===== 지원대상 ===== -->
+<h3 class="sub-section-title">2. 지원 대상</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+의료법에 따른 의사면허 보유자 중 전일제 박사학위과정(박사과정 또는 석·박사 통합과정)에
+재학 중이거나 입학 예정인 자를 지원 대상으로 함(전문의 여부 무관).
+</p>
+
+<ul class="section-list">
+  <li>박사과정 6학기 이내, 석·박사 통합과정 8학기 이내 재학자에 한해 신청 가능</li>
+  <li>해당 학기 이내라도 학위과정을 종료(수료)한 경우 신청 불가</li>
+  <li>지원 중 임상 병행으로 부분제 전환 시 지원 중단</li>
+  <li>재학 학기, 소속 학과 및 전공 과목이 명시된 재학증명서 제출 필수</li>
+</ul>
+
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+지원자는 최소 2년(4학기) 이상 사업 참여가 필수이며,
+조기 학위 취득 시 협약 기간 단축이 가능함.
+석·박사 통합과정 1~3학기 재학자도 신청 가능하나,
+박사학위 취득을 지원 요건으로 하며 최대 6년간 지원 가능함.
+</p>
+
+<!-- ===== 지원분야 ===== -->
+<h3 class="sub-section-title">3. 지원 분야</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+임상의학을 제외한 기초의학, 이학, 공학 등 융합과학 분야의 전일제 학위과정을 지원함.
+의학교육, 인문의학 등 연구 역량 교과목 이수 체계가 명확하지 않은 계열은 지원 대상에서 제외됨.
+</p>
+
+<!-- ===== 지원규모 및 기간 ===== -->
+<h3 class="sub-section-title">4. 지원규모 및 기간</h3>
+<ul class="section-list">
+  <li>지원규모: 1인당 연 75백만 원 (국고 50백만 원, 기관부담금 25백만 원)</li>
+  <li>지원기간: 최대 4년 (최소 2년 이상 참여 필수)</li>
+  <li>국고보조금과 기관부담금은 2:1 비율로 매칭하여야 함</li>
+  <li>연간 장학금 및 인건비 총액은 연 5천만 원 이내로 편성함</li>
+</ul>
+<p style="font-size:0.75em; line-height:0; margin:0; text-align:justify;">
+<b>* 연간 연구책임자 인건비 총 2천5백만원까지 신청 가능함.</b>
+</p>
+
+<h3 class="sub-section-title">5. 참여자 현황</h3>
+
+| 번호 | 성명 | 임상전공 | 수료연도 | 소속 교실 | 전공 분야 | 수료 후 진로 | 비고 |
+|---|---|---|---|---|---|---|
+| 1 | 박○상 | 일반의 | 2024 | 생화학교실 | 종양생물학 | 기초교원 |최우수 수료 및 보건복지부장관상 수상 
+| 2 | 박○형 | 일반의 | 2025 | 의료정보학교실 | 의료정보학 | 비교원임상 | 최우수 수료 및 보건복지부장관상 수상
+| 3 | 최○진 | 일반의 | 2025 | 의료정보학교실 | 의료정보학 | 임상수련 |
+| 4 | 이○윤 | 정신건강의학과 | 2025 | 의료정보학교실 | 의료정보학 | 비교원임상 | 
+| 5 | 김○기 | 일반의 | 2025 | 뇌과학교실 | 신경과학 | 기초교원 | 최우수 수료
+| 6 | 고○연 | 신경과 | 2025 | 뇌과학교실 | 신경과학 | 임상교원 | 전공의지원사업 수료
+| 7 | 안○호 | 일반의 | 2026 | 의료정보학교실 | 의료정보학 | 임상수련 |
+| 8 | 김○섭 | 신경과 | 진행중 | 의료정보학교실 | 의료정보학 | 진행중 | 전공의지원사업 수료
+
+<h2 class="section-title" id="resident-support">
+  <span class="dot"></span>
+  <span class="title-text">전공의 연구지원</span>
+</h2>
+
+
+<!-- ===== 사업내용 ===== -->
+<h3 class="sub-section-title">1. 사업 내용</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+본 사업은 바이오메디컬 융·복합연구를 주도적으로 수행할 수 있는 의사과학자를 양성하기 위해,
+전공의를 대상으로 기초의학, 자연과학, 공학 등 타 학문 분야의 교육 및 연구 참여를 지원하고,
+동시에 의사과학자 양성을 위한 제도적·교육적·연구 인프라를 구축하는 것을 목적으로 함.
+임상 지식과 이공계 학문이 융합된 의과학 연구를 통해 바이오메디컬 산업 발전에 기여하고,
+질병 치료 전략 고도화 및 신약·의료기기 개발로의 확장을 도모하고자 함.
+</p>
+<p style="font-size:0.75em; line-height:2.5; margin:0; text-align:justify;">
+<b>* 본 내용은 사업 RFP를 바탕으로 한 요약본으로, 정확한 내용은 보건산업진흥원 융합형 의사과학자 전일제박사과정 RFP 원문 참고 필요.</b>
+</p>
+<!-- ===== 지원대상 ===== -->
+<h3 class="sub-section-title">2. 지원 대상</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+전공의 연구지원은 지원 개시 시점 기준 전공의 수련기간이 최소 1년 이상 남아 있으며,
+임상 외 전공과목으로 석사, 박사 또는 석·박사 통합 학위과정에 진학 중인 전공의를 대상으로 함.
+의사과학자 양성 인프라 구축은 전공의 및 전일제 대학원생을 대상으로
+의사과학자 양성 체계를 지속적으로 운영할 수 있는 국내 의과대학 또는 컨소시엄을 대상으로 함.
+</p>
+
+<ul class="section-list">
+  <li>전공의 수련과목과 동일한 전공의 학위과정 선택 시 지원 불가</li>
+  <li>지도교수의 임상의학 전공과 전공의 수련과목이 동일한 경우 지원 제한</li>
+</ul>
+
+<!-- ===== 지원내용 ===== -->
+<h3 class="sub-section-title">3. 지원 내용</h3>
+<p style="font-size:1.1em; line-height:1.6; margin:0; text-align:justify;">
+전공의 연구지원은 임상의학을 제외한 기초의학, 자연과학, 공학 및 융·복합 의과학 분야의
+석사, 박사, 석·박사 통합 학위과정에 대해 연구 참여를 지원함.
+의사과학자 양성 인프라 구축은 전공의 선발·교육·연구지원·학사관리·평가 체계 구축과 함께,
+의사과학자 진로 유인 프로그램 개발, 양성 및 배출 경로 제도화,
+의사과학자 양성 모델 확산을 주요 수행 내용으로 함.
+</p>
+
+<!-- ===== 지원규모 및 기간 ===== -->
+<h3 class="sub-section-title">4. 지원규모 및 기간</h3>
+<ul class="section-list">
+  <li>전공의 연구지원: 1인당 연 국고 2천만 원, 기관부담금 1천만 원 지원</li>
+  <li>전공의 연구지원 기간: 최소 1년 이상, 최대 2년 이내</li>
+</ul>
+
+<h3 class="sub-section-title">5. 참여자 현황</h3>
+
+| 번호 | 성명 | 임상전공 | 수료연도 | 수료 후 진로 | 비고 |
+|---|---|---|---|---|---|---|
+| 1 | 고○연 | 신경과 | 2021 | 임상교원 | 융합형의사과학자 전일제박사과정지원사업 추가 수료 
+| 2 | 김○영 | 산부인과 | 2021 | 비교원임상 |
+| 3 | 박○영 | 신경과 | 2021 |  임상교원 |
+| 4 | 조○혁 | 정신건강의학과 | 2021 | 임상교원 | 
+| 5 | 김○현 | 핵의학과 | 2022 | 비교원임상 |
+| 6 | 이○호 | 방사선종양학과 | 2022 |  임상교원 |
+| 7 | 김○철 | 피부과 | 2022 |  임상교원 | 글로벌의사과학자양성사업-신진 수행중
+| 8 | 이○지 | 내과 | 2023 | 비교원임상 |
+| 9 | 황○범 | 정신건강의학과 | 2023 | 군복무 |
+| 10 | 김○희 | 피부과 | 2023 | 비교원임상 |
+| 11 | 박○성 | 내과 | 2023 | 군복무 |
+| 12 | 이○라 | 피부과 | 2023 | 임상교원 |
+| 13 | 김○섭 | 신경과 | 2023 | 전일제박사과정 | 융합형의사과학자 전일제박사과정지원사업 수행중
+| 14 | 이○ | 신경과 | 2023 | 임상교원 |
+| 15 | 장○율 | 병리과 | 2023 | 진행중 |
+| 16 | 최○정 | 가정의학과 | 2023 | 진행중 |

@@ -2,6 +2,13 @@
 title: "인사말"
 nav:
   order: 1
+  dropdown:
+    - title: 학장인사
+      anchor: president
+    - title: 단장인사
+      anchor: vicepresident
+    - title: 조직도
+      anchor: jojik
 ---
 
 {% include section.html %}
@@ -9,7 +16,7 @@ nav:
 <div class="greeting-grid-2x2">
 
   <!-- 좌상 -->
-<div class="greeting-title">
+<div class="greeting-title" id="president">
   <h2><span class="ajou-bold">A</span>dvancing the <span class="ajou-bold">J</span>ourney to the</h2>
   <h2><span class="ajou-bold">O</span>utstanding <span class="ajou-bold">U</span>niversity in Medicine
   </h2>
@@ -74,11 +81,11 @@ AI 초융합 KIURI 중개연구단, 핵심연구지원센터 등
 
 </div>
 {% include section.html %}
-<div class="greeting-grid-2x2 reverse">
+<div class="greeting-grid-2x2 reverse" id="vicepresident">
 
   <!-- 좌상 (사진) -->
   <div class="greeting-image">
-    <img src="/images/vicedean.jpg" alt="Ajou SOM Vice Dean">
+    <img src="/images/vicedean2.png" alt="Ajou SOM Vice Dean">
   </div>
 
   <!-- 우상 (제목) -->
@@ -141,3 +148,9 @@ AI 초융합 KIURI 중개연구단, 핵심연구지원센터 등
 </div>
 
 {% include section.html %}
+<div id="jojik">
+ <img src="/images/jojik.png"
+      alt="중개의학"
+      style="max-width:100%;
+             border-radius:12px;">
+</div>

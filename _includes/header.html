@@ -40,34 +40,32 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
-  <nav>
-  {% assign parents = site.pages
-    | where_exp: "p", "p.nav and p.nav.parent == nil"
-    | sort: "nav.order"
-  %}
+ <nav>
+{% assign parents = site.pages
+  | where_exp: "p", "p.nav and p.nav.parent == nil"
+  | sort: "nav.order"
+%}
 
-  {% for parent in parents %}
-    <div class="nav-item">
-      <a href="{{ parent.dir | relative_url }}">
-        {{ parent.title }}
-      </a>
+{% for parent in parents %}
+  <div class="nav-item">
 
-      {% assign children = site.pages
-        | where_exp: "c", "c.nav and c.nav.parent == parent.title"
-        | sort: "nav.order"
-      %}
+    <!-- 부모 메뉴 -->
+    <a href="{{ parent.dir | relative_url }}">
+      {{ parent.title }}
+    </a>
 
-      {% if children.size > 0 %}
-        <div class="dropdown">
-          {% for child in children %}
-            <a href="{{ child.dir | relative_url }}">
-              {{ child.title }}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-  {% endfor %}
+    {% if parent.nav.dropdown %}
+      <div class="dropdown">
+        {% for item in parent.nav.dropdown %}
+          <a href="{{ parent.dir | relative_url }}#{{ item.anchor }}">
+            {{ item.title }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+{% endfor %}
 </nav>
-
 </header>
+

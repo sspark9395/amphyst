@@ -122,3 +122,44 @@
 .image-pair img:last-child {
   max-width: 420px;     /* 오른쪽 이미지 */
 }
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.6rem;        /* 제목 크기 */
+  font-weight: 600;
+  color: #1f2b72;
+}
+
+/* 바깥 원 */
+.section-title .dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #144ecc;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* 안쪽 흰 원 */
+.section-title .dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;                 /* top/right/bottom/left = 0 */
+  margin: auto;             /* 진짜 중앙 정렬 */
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-title .dot {
+  margin-top: 12px;   /* ← 핵심 */
+}

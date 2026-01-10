@@ -141,7 +141,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: $big-padding 20px;
+  padding: 20px 20px 20px;
 
   @if $sticky {
     top: unset;
@@ -200,31 +200,34 @@ header:not([data-big]) .subtitle {
 /* ===== DROPDOWN PANEL ===== */
 .dropdown {
   position: absolute;
-  top: calc(100% + 14px);
+  top: calc(100% + 10px);          /* 14px → 10px */
   left: 50%;
-  transform: translateX(-50%) translateY(8px);
-  background: #ffffff;
-  min-width: 260px;
-  padding: 12px 0;
-  border-radius: 14px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  transform: translateX(-50%) translateY(6px); /* 8px → 6px */
+  min-width: 180px;                /* 260px → 200px */
+  padding: 8px 0;                  /* 12px → 8px */
+  border-radius: 12px;             /* 14px → 12px */
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12); /* 살짝 축소 */
   opacity: 0;
   visibility: hidden;
   transition: all 0.25s ease;
   z-index: 999;
+  background: rgba(255, 255, 255, 0.521);  /* 반투명 */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);   /* Safari 대응 */
 }
 
 /* 작은 화살표 */
 .dropdown::before {
   content: "";
   position: absolute;
-  top: -8px;
+  top: -7px;                       /* 8px → 7px */
   left: 50%;
   transform: translateX(-50%);
-  border-width: 0 8px 8px 8px;
+  border-width: 0 7px 7px 7px;
   border-style: solid;
   border-color: transparent transparent #ffffff transparent;
 }
+
 
 /* hover 시 표시 */
 .nav-item:hover .dropdown {
@@ -235,18 +238,83 @@ header:not([data-big]) .subtitle {
 
 /* ===== DROPDOWN LINKS ===== */
 .dropdown a {
+  position: relative;              /* underline 애니메이션용 */
   display: block;
-  padding: 12px 24px;
-  font-size: 1.05rem;
+  padding: 8px 15px;               /* 12px 24px → 축소 */
+  font-size: 0.85rem;              /* 1.05rem → 0.95rem */
   font-weight: 500;
   color: #1f2b72;
   text-align: center;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.dropdown a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 35px;                    /* 글씨 길이에 비례 */
+  height: 1.8px;                   /* 더 얇게 */
+  background-color: #707072;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s cubic-bezier(.4,0,.2,1);
 }
 
 /* hover 효과 */
 .dropdown a:hover {
+  color: #213ddf;
+  background: none;                /* 기존 배경 제거 */
+}
+
+.dropdown a:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+/* ===== PARENT NAV LINK ===== */
+.nav-item > a {
+  display: inline-block;
+  padding: 12px 22px;   /* 24 → 22 */
+  border-radius: 10px;
+  font-size: 1.25rem;   /* 1.4 → 1.25 */
+  font-weight: 500;
+  color: #1f2b72;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+
+/* 부모 hover 효과 */
+.nav-item:hover > a {
   background: rgba(31, 43, 114, 0.08);
   color: #213ddf;
+}
+
+/* ===== MESSAGE NAV ===== */
+.message-nav {
+  display: flex;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+/* ===== MESSAGE NAV LINKS ===== */
+.message-nav a {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 14px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #1f2b72;
+  background: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+}
+
+/* hover 효과 */
+.message-nav a:hover {
+  background: rgba(31, 43, 114, 0.08);
+  color: #213ddf;
+  transform: translateY(-2px);
 }
