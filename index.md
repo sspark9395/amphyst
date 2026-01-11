@@ -13,7 +13,7 @@
 
 {% capture text %}
 
-의사과학자란 무엇일까요? 의사과학자 출신 노벨상 수상자들과 아주대학교 의과대학의 의사과학자들에 대하여 자세히 알아보세요.
+의사과학자란 무엇일까요? 의사과학자 출신 노벨상 수상자들과 <br>아주대학교의 의사과학자들에 대하여 자세히 알아보세요.
 
 {%
   include button.html
@@ -30,7 +30,7 @@
   include feature.html
   image="images/mdphd.png"
   link="research"
-  title="의사과학자 소개"
+  title="<span style='font-size: 2.2rem; font-weight: bold;'>의사과학자 소개</span>"
   text=text
 %}
 
@@ -40,7 +40,7 @@
 
 {%
   include button.html
-  link="융합형의사과학자지원사업"
+  link="융합형 의사과학자 양성사업"
   text="더 알아보기"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -52,8 +52,8 @@
 {%
   include feature.html
   image="images/yoong.png"
-  link="융합형의사과학자지원사업"
-  title="융합형의사과학자지원사업"
+  link="융합형 의사과학자 양성사업"
+  title="<span style='font-size: 2.2rem; font-weight: bold;'>융합형 의사과학자 양성사업</span>"
   flip=true
   style="bare"
   text=text
@@ -61,7 +61,7 @@
 
 {% capture text %}
 
-아주대학교 의과대학에서 지원하는 의사과학자 양성 시스템에 대해 자세히 알아보세요.
+아주대학교 의과대학만의 의사과학자 양성 시스템 (AMPhST)에 대해 자세히 알아보세요.
 
 {%
   include button.html
@@ -78,6 +78,6 @@
   include feature.html
   image="images/AJOU.png"
   link="contact"
-  title="아주대학교 의사과학자 양성사업 (AMPhST)"
+  title="<span style='font-size: 2.2rem; font-weight: bold;'>아주대학교 의사과학자 양성사업</span>"
   text=text
 %}

@@ -1,5 +1,5 @@
 ---
-title: 융합형의사과학자지원사업
+title: 융합형 의사과학자 양성사업
 nav:
   order: 3
   dropdown:

@@ -8,12 +8,12 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@sspark9395.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: sspark9395
-  twitter: sspark9395
-  youtube: sspark9395
+  #email: contact@sspark9395.com
+  #orcid: 0000-0001-8713-9213
+  #google-scholar: ETJoidYAAAAJ
+  #github: sspark9395
+  #twitter: sspark9395
+  #youtube: sspark9395
 
 ### jekyll settings
 
