@@ -3,6 +3,9 @@
 # name of image
 IMAGE=lab-website-renderer:latest
 
+#production
+JEKYLL_ENV=production
+
 # name of running container
 CONTAINER=lab-website-renderer
 
