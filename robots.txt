@@ -1,1 +1,9 @@
-Sitemap: http://ajouatmlab.com/amphyst/sitemap.xml
+User-agent: *
+Allow: /
+
+# 보안 및 빌드 관련 폴더 차단
+Disallow: /_scripts/
+Disallow: /_plugins/
+Disallow: /_data/
+
+Sitemap: http://ajouatmlab.com/sitemap.xml
