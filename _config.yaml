@@ -1,3 +1,7 @@
+# _config.yaml 최상단
+url: "https://amphyst-ajoumc.or.kr"
+baseurl: ""
+
 # site properties and page defaults
 title: 아주대학교 의사과학자 양성사업단
 subtitle: Ajou University School of Medicine <br> Physician-Scientist Training (AMPhST) Program
@@ -71,7 +75,3 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-
-# url
-url: "https://amphyst-ajoumc.or.kr"
-baseurl: ""

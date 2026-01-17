@@ -51,7 +51,7 @@
 
 {%
   include feature.html
-  image="images/yoong.png"
+  image="images/yoong.jpg"
   link="융합형 의사과학자 양성사업"
   title="<span style='font-size: 2.2rem; font-weight: bold;'>융합형 의사과학자 양성사업</span>"
   flip=true
