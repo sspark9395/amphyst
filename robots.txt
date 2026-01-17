@@ -1,0 +1,12 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# 보안 및 빌드 관련 폴더 차단
+Disallow: /_scripts/
+Disallow: /_plugins/
+Disallow: /_data/
+
+Sitemap: {{ site.url }}/sitemap.xml
