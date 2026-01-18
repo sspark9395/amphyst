@@ -848,7 +848,7 @@ nav:
     </div>
 
     <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
-      박순상 교수는 생화학교실의 조교수로, 아주대학교 의과대학 27회 졸업생이며 동 기관 생화학교실 박태준 現 학장님의 지도 아래 박사학위를 취득하였습니다. 박 교수는 보건복지부 융합형의사과학자 양성사업으로 배출한 아주대학교 의과대학의 첫 전임교원 의사과학자입니다. 세포 노화와 인체 노화와의 연관성, 노화암세포의 암 촉진 특성에 관하여 유전체 및 전사체 수준의 다양한 연구를 수행중입니다.
+      박순상 교수는 생화학교실의 조교수로, 아주대학교 의과대학 27회 졸업생이며, 동 대학 생화학교실 박태준 교수님의 지도 아래 박사학위를 취득하였습니다. 박 교수는 보건복지부 융합형의사과학자 양성사업으로 배출한 아주대학교 의과대학의 첫 전임교원 의사과학자입니다. 세포 노화와 인체 노화와의 연관성, 노화암세포의 암 촉진 특성에 관하여 유전체 및 전사체 수준의 다양한 연구를 수행중입니다.
       <a href="http://repository.ajou.ac.kr/researcher-profile?ep=4488"
      target="_blank"
      rel="noopener noreferrer"
@@ -882,6 +882,113 @@ nav:
     <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
       김한기 교수는 해부학교실의 조교수로, 아주대학교 의과대학 27회 졸업생이며 동 기관 뇌과학교실에서 박사학위를 취득하였습니다. 보건복지부 융합형 의사과학자 양성사업으로 배출한 두 번째 기초학교실 전임교원 의사과학자입니다. 김 교수는 뇌에 존재하는 희소돌기교세포에 주목하여 세포의 생리적, 병리적 특성을 규명하는 연구를 수행하고 있으며, 희소돌기교세포의 특징을 용이하게 포착할 수 있는 세포 배양 방법과 다양한 실험 방법론을 개발하고 있습니다.
       <a href="http://repository.ajou.ac.kr/researcher-profile?ep=5348"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-left:6px; color:#213ddf;">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+    </p>
+
+  </div>
+</div>
+
+<div style="display:flex; align-items:center; gap:2rem; margin:2rem 0;">
+
+  <div style="text-align:justify;">
+
+    <div style="font-size:1.2em; line-height:1.4; margin-bottom:0.5rem;">
+      <strong>정형외과 박도영, MD, PhD: 조직공학, 재생의학  </strong>
+    </div>
+
+    <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
+      박도영 교수는 정형외과교실의 부교수로, 아주대학교 의과대학 14회 졸업생이며 동 기관 해부학교실에서 박사학위를 취득하였습니다. 박 교수는 조직공학과 재생의학 기술을 이용해 무릎 반월상연골 및 인대 조직을 복원하는 첨단 연구를 수행하고 있습니다. 특히 돼지 유래 연골을 활용해 실제 인체 조직과 유사한 생화학적 조성과 단백질 프로파일을 지닌 3D 바이오프린팅 인공 연골 조직을 개발하는 데 성공하였으며, 줄기세포 기반 치료제의 상용화를 위해 교원 창업 기업을 운영하며 산학연병 협력 연구를 통한 재생 의료의 새로운 패러다임을 제시하고 있습니다.
+      <a href="http://repository.ajou.ac.kr/researcher-profile?ep=907&type=1"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-left:6px; color:#213ddf;">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+    </p>
+
+  </div>
+
+  <img src="/images/parkdy.png"
+       alt="중개의학"
+       style="max-width:18%;
+              border-radius:12px;">
+
+</div>
+
+<div style="display:flex; align-items:center; gap:2rem; margin:2rem 0;">
+
+  <img src="/images/leedk.png"
+       alt="중개의학"
+       style="max-width:18%;
+              border-radius:12px;">
+
+  <div style="text-align:justify;">
+
+    <div style="font-size:1.2em; line-height:1.4; margin-bottom:0.5rem;">
+      <strong>병리과 이다근, MD, PhD: 암과 종양미세환경 </strong>
+    </div>
+
+    <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
+      이다근 교수는 병리과의 부교수로, 차의과대학교를 졸업하고 성균관대학교와 충북대학교에서 각각 석사와 박사를 취득하였습니다. 이후 위장관병리학을 중심으로 암세포와 종양 미세환경 내 다양한 세포군(섬유아세포, 면역세포) 간의 상호작용을 연구하여 암의 악성화 기전을 규명하고 있습니다. 특히 ARID1A 등 주요 유전자 변이가 종양의 면역 환경과 치료 반응에 미치는 영향을 분석하고 있으며, 췌장암 환자의 예후를 예측할 수 있는 바이오마커 발굴 및 인공지능 기반의 실시간 병리 진단 모델을 구축하여 환자 맞춤형 정밀 의료 실용화에 앞장서고 있습니다.
+      <a href="http://repository.ajou.ac.kr/researcher-profile?ep=976"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-left:6px; color:#213ddf;">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+    </p>
+
+  </div>
+</div>
+
+
+<div style="display:flex; align-items:center; gap:2rem; margin:2rem 0;">
+
+  <div style="text-align:justify;">
+
+    <div style="font-size:1.2em; line-height:1.4; margin-bottom:0.5rem;">
+      <strong>소화기내과 정재연, MD, PhD: 간암, 바이오인포메틱스  </strong>
+    </div>
+
+    <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
+      정재연 교수는 소화기내과의 교수로, 연세대학교 의과대학을 졸업 후 동 대학에서 박사학위를 취득하였습니다. 정 교수는 간암 조직의 공개 전사체 데이터 기반의 선별(바이오인포매틱스)과 환자 검체 기반의 실험 검증(분자생물학)을 연결해, 재현성 높은 바이오마커 평가 체계를 만드는 연구를 수행합니다. 이런 기반 위에서 간암의 진단·예후·치료반응 지표 발굴 및 검증 연구를 확장해 나가고 있습니다.
+      <a href="http://repository.ajou.ac.kr/researcher-profile?ep=859"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="margin-left:6px; color:#213ddf;">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+    </p>
+
+  </div>
+
+  <img src="/images/cheongjy.png"
+       alt="중개의학"
+       style="max-width:18%;
+              border-radius:12px;">
+
+</div>
+
+<div style="display:flex; align-items:center; gap:2rem; margin:2rem 0;">
+
+  <img src="/images/chohj.png"
+       alt="중개의학"
+       style="max-width:18%;
+              border-radius:12px;">
+
+  <div style="text-align:justify;">
+
+    <div style="font-size:1.2em; line-height:1.4; margin-bottom:0.5rem;">
+      <strong>소화기내과 조효정, MD, PhD: 암과 종양미세환경 </strong>
+    </div>
+
+    <p style="font-size:1.05em; line-height:1.6; margin:0; text-align:justify;">
+       조효정 교수는 소화기내과의 부교수로, 아주대학교 의과대학 14회 졸업생이며 동 대학에서 박사학위를 취득하였습니다. 조 교수 연구실은 간암 조직 내의 비암세포 성분, 즉 종양 미세환경(Tumor Microenvironment, TME)이 암세포의 악성도와 약물 저항성에 미치는 영향에 관한 연구를 진행중입니다.. 과거의 종양학 연구가 주로 암세포 자체의 유전자 변이에 집중했다면, 조효정 교수는 암세포 주위를 둘러싸고 있는 '암 관련 섬유아세포(Cancer-Associated Fibroblasts, CAFs)'가 암세포와 주고받는 신호 전달 기전에 주목하고 있습니다.
+      <a href="http://repository.ajou.ac.kr/researcher-profile?ep=936"
      target="_blank"
      rel="noopener noreferrer"
      style="margin-left:6px; color:#213ddf;">
